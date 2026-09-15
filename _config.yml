@@ -19,28 +19,48 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Nazifa Tasnim Hia
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/about/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+email: bsse0930@iit.du.ac.bd
+description: Scientist at the Centre for Advanced Research in Sciences, University of Dhaka.
+baseurl: ""
+url: "https://nazifaHia.github.io"
 
-# Build settings
-theme: minimal-mistakes-jekyll
+theme: minima
+
+header_pages:
+  - about.md
+  - publications.md
+  - projects.md
+  - students.md
+  - contact.md
+
+github_username: nazifaHia
+
 plugins:
   - jekyll-feed
+  
+# title: Nazifa Tasnim Hia
+# email: your-email@example.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+# baseurl: "/about/" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username: jekyll
 
-navigation:
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Contact"
-    url: /contact/
+# # Build settings
+# theme: minimal-mistakes-jekyll
+# plugins:
+#   - jekyll-feed
+
+# navigation:
+#   - title: "About"
+#     url: /about/
+#   - title: "Projects"
+#     url: /projects/
+#   - title: "Contact"
+#     url: /contact/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
